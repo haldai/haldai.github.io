@@ -955,7 +955,7 @@ footer p{
   color:#fcfcfc;
   background:#1f1d1d;
   border-top:solid 10px #343131;
-  font-family:"Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
+  font-family: "EBG12-Re";
   font-size: 90%;
   z-index:400;
   padding:12px;
@@ -1090,7 +1090,7 @@ h2.footnotes{
 .footnum, .footref{
   color: #2980b9;
   font-size: 170%;
-  font-family:"Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
+  font-family: "EBG12-Re";
 }
 
 .footnum:before, .footref:before{
@@ -1104,7 +1104,7 @@ h2.footnotes{
 .footpara {
   color: #999;
   font-size: 90%;
-  font-family:"Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
+  font-family: "EBG12-Re";
   padding-bottom: 8px;
   padding-left: 16px;
   padding-right: 16px;
