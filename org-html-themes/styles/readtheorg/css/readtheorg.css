@@ -962,11 +962,13 @@ footer p{
 }
 
 #postamble .author {
+  font-family: "EBG12-Re";
   font-size: 100%;
   margin-bottom: 0px;
 }
 
 #postamble .date {
+  font-family: "EBG12-Re";
   font-size: 90%;
   margin-bottom: 0px;
   color: #27AE60;
@@ -977,10 +979,12 @@ footer p{
 }
 
 #copyright a{
+  font-family: "EBG12-Re";
   color:#2980B9;
   text-decoration:none}
 
 #copyright .rst-current-version{
+  font-family: "EBG12-Re";
   padding:12px;
   background-color:#272525;
   display:block;
@@ -1147,7 +1151,7 @@ h2.footnotes{
 }
 
 .timestamp {
-  font-family: "Source Code Pro",Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+  font-family: "EBG12-Re";
   font-size: 90%;
   color: navy;
 }
