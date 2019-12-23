@@ -1,6 +1,5 @@
 # -*- mode: org; -*-
 
-#+HTML_MATHJAX: scale: 90%
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://haldai.github.io/org-html-themes/styles/readtheorg/css/htmlize.css"/>
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://haldai.github.io/org-html-themes/styles/readtheorg/css/readtheorg.css"/>
 
@@ -8,3 +7,71 @@
 #+HTML_HEAD: <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 #+HTML_HEAD: <script type="text/javascript" src="https://haldai.github.io/org-html-themes/styles/lib/js/jquery.stickytableheaders.min.js"></script>
 #+HTML_HEAD: <script type="text/javascript" src="https://haldai.github.io/org-html-themes/styles/readtheorg/js/readtheorg.js"></script>
+
+# MACROS
+#+MACRO: cmt @@comment:$1@@
+#+MACRO: nl @@html:<br \>@@
+#+MACRO: qed $\blacksquare$
+#+MACRO: beq \begin{equation}
+#+MACRO: eeq \end{equation}
+#+MACRO: begin_div @@html:<div class="$1" style="$2" id="$3">@@
+#+MACRO: end_div @@html:</div>@@
+#+MACRO: awesome @@html:&#xf$1@@
+#+MACRO: rawesome @@html:<font color="#981E32">&#xf$1</font>@@
+#+MACRO: bawesome @@html:<font color="#1A53A1">&#xf$1</font>@@
+#+MACRO: color @@html:<font color="$1">$2</font>@@
+#+MACRO: red @@html:<font color="#981E32">$1</font>@@
+#+MACRO: blue @@html:<font color="#1A53A1">$1</font>@@
+#+MACRO: bold @@html:<b>$1</b>@@
+#+MACRO: rbold @@html:<font color="#981E32"><b>$1</b></font>@@
+#+MACRO: bbold @@html:<font color="#1A53A1"><b>$1</b></font>@@
+#+MACRO: it @@html:<i>$1</i>@@
+#+MACRO: rit @@html:<font color="#981E32"><i>$1</i></font>@@
+#+MACRO: bit @@html:<font color="#1A53A1"><i>$1</i></font>@@
+#+MACRO: it @@html:<i>$1</i>@@
+#+MACRO: rit @@html:<font color="#981E32"><i>$1</i></font>@@
+#+MACRO: bit @@html:<font color="#1A53A1"><i>$1</i></font>@@
+#+MACRO: small @@html:<small>$1</small>@@
+#+MACRO: rsmall @@html:<font color="#981E32"><small>$1</small></font>@@
+#+MACRO: bsmall @@html:<font color="#1A53A1"><small>$1</smallmarknt>@@
+#+MACRO: rmark @@html:<mark style="background-color: #981E32;">$1</mark>@@
+#+MACRO: bmark @@html:<mark style="background-color: #1A53A1;">$1</mark>@@
+
+# Setup for PDF generation via LaTeX export.
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [UTF8,a4paper]
+#+LATEX_HEADER: \usepackage[backend=biber,style=alphabetic]{biblatex}
+#+LATEX_HEADER: \usepackage{amsmath,latexsym,amssymb,amsfonts,amsbsy}
+#+LATEX_HEADER: \addbibresource{references.bib}
+#+LATEX_HEADER: \usepackage[BoldFont,SlantFont]{xeCJK}
+#+LATEX_HEADER: \usepackage{xcolor}
+#+LATEX_HEADER: \definecolor{darkred}{rgb}{0.3, 0.0, 0.0}
+#+LATEX_HEADER: \definecolor{darkgreen}{rgb}{0.0, 0.3, 0.1}
+#+LATEX_HEADER: \definecolor{darkblue}{rgb}{0.0, 0.1, 0.3}
+#+LATEX_HEADER: \definecolor{darkorange}{rgb}{1.0, 0.55, 0.0}
+#+LATEX_HEADER: \definecolor{sienna}{rgb}{0.53, 0.18, 0.09}
+#+LATEX_HEADER: \hypersetup{colorlinks,linkcolor=darkblue,citecolor=darkblue,urlcolor=darkgreen}
+#+LATEX_HEADER: \xeCJKsetemboldenfactor{1}
+#+LATEX_HEADER: \setCJKfamilyfont{hei}{SimHei}
+#+LATEX_HEADER: \xeCJKsetemboldenfactor{4}
+#+LATEX_HEADER: \setCJKfamilyfont{song}{SimSun}
+#+LATEX_HEADER: \xeCJKsetemboldenfactor{4}
+#+LATEX_HEADER: \setCJKfamilyfont{fs}{FangSong}
+#+LATEX_HEADER: \setCJKfamilyfont{kai}{KaiTi}
+#+LATEX_HEADER: \setCJKfamilyfont{li}{LiSu}
+#+LATEX_HEADER: \setCJKfamilyfont{xw}{STXinwei}
+#+LATEX_HEADER: \setCJKmainfont{SimSun}%STFangsong
+#+LATEX_HEADER: \setCJKmonofont{FangSong}
+
+# HTML output
+#+HTML_DOCTYPE: html5
+#+LANGUAGE: zh-CN
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../style/css/htmlize.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../style/css/readtheorg.css"/>
+#+HTML_HEAD: <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+#+HTML_HEAD: <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="../style/js/jquery.stickytableheaders.min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="../style/js/readtheorg.js"></script>
+
+# MathJax settings
+#+HTML_MATHJAX: scale: 85
