@@ -111,7 +111,7 @@ body{
   background:#edf0f2;
   color:#404040;
   font-family:"EBG12-Re",Arial,sans-serif;
-  font-size: 1em !important;
+  font-size: 1.1em !important;
   font-weight:normal;
   margin:0;
   min-height:100%;
@@ -129,7 +129,7 @@ body{
 }
 
 p{
-  font-size:1em !important;
+  font-size:1.1em !important;
   line-height:1.2em !important;
   margin:10px 0px 12px 0px;
 }
@@ -442,7 +442,7 @@ table thead th{
 table caption{
   color:#000;
   font:italic 85%/1 arial,sans-serif;
-  padding:1em 0;
+  padding:1.1em 0;
 }
 
 table tr:nth-child(2n-1) td{
@@ -456,7 +456,7 @@ table tr:nth-child(2n) td{
 .figure p{
   color:#000;
   font:italic 85%/1 arial,sans-serif;
-  padding:1em 0;
+  padding:1.1em 0;
 }
 
 .rotate-90{
