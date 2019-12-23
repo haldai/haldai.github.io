@@ -63,15 +63,5 @@
 #+LATEX_HEADER: \setCJKmainfont{SimSun}%STFangsong
 #+LATEX_HEADER: \setCJKmonofont{FangSong}
 
-# HTML output
-#+HTML_DOCTYPE: html5
-#+LANGUAGE: zh-CN
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../style/css/htmlize.css"/>
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../style/css/readtheorg.css"/>
-#+HTML_HEAD: <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
-#+HTML_HEAD: <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-#+HTML_HEAD: <script type="text/javascript" src="../style/js/jquery.stickytableheaders.min.js"></script>
-#+HTML_HEAD: <script type="text/javascript" src="../style/js/readtheorg.js"></script>
-
 # MathJax settings
-#+HTML_MATHJAX: scale: 85
+#+HTML_MATHJAX: scale: 90
