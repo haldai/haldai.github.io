@@ -37,31 +37,5 @@
 #+MACRO: rmark @@html:<mark style="background-color: #981E32;">$1</mark>@@
 #+MACRO: bmark @@html:<mark style="background-color: #1A53A1;">$1</mark>@@
 
-# Setup for PDF generation via LaTeX export.
-#+LATEX_CLASS: article
-#+LATEX_CLASS_OPTIONS: [UTF8,a4paper]
-#+LATEX_HEADER: \usepackage[backend=biber,style=alphabetic]{biblatex}
-#+LATEX_HEADER: \usepackage{amsmath,latexsym,amssymb,amsfonts,amsbsy}
-#+LATEX_HEADER: \addbibresource{references.bib}
-#+LATEX_HEADER: \usepackage[BoldFont,SlantFont]{xeCJK}
-#+LATEX_HEADER: \usepackage{xcolor}
-#+LATEX_HEADER: \definecolor{darkred}{rgb}{0.3, 0.0, 0.0}
-#+LATEX_HEADER: \definecolor{darkgreen}{rgb}{0.0, 0.3, 0.1}
-#+LATEX_HEADER: \definecolor{darkblue}{rgb}{0.0, 0.1, 0.3}
-#+LATEX_HEADER: \definecolor{darkorange}{rgb}{1.0, 0.55, 0.0}
-#+LATEX_HEADER: \definecolor{sienna}{rgb}{0.53, 0.18, 0.09}
-#+LATEX_HEADER: \hypersetup{colorlinks,linkcolor=darkblue,citecolor=darkblue,urlcolor=darkgreen}
-#+LATEX_HEADER: \xeCJKsetemboldenfactor{1}
-#+LATEX_HEADER: \setCJKfamilyfont{hei}{SimHei}
-#+LATEX_HEADER: \xeCJKsetemboldenfactor{4}
-#+LATEX_HEADER: \setCJKfamilyfont{song}{SimSun}
-#+LATEX_HEADER: \xeCJKsetemboldenfactor{4}
-#+LATEX_HEADER: \setCJKfamilyfont{fs}{FangSong}
-#+LATEX_HEADER: \setCJKfamilyfont{kai}{KaiTi}
-#+LATEX_HEADER: \setCJKfamilyfont{li}{LiSu}
-#+LATEX_HEADER: \setCJKfamilyfont{xw}{STXinwei}
-#+LATEX_HEADER: \setCJKmainfont{SimSun}%STFangsong
-#+LATEX_HEADER: \setCJKmonofont{FangSong}
-
 # MathJax settings
 #+HTML_MATHJAX: scale: 90
