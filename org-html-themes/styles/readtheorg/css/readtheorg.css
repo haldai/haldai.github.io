@@ -103,12 +103,12 @@ h2,h3,h4,h5,h6,legend{
   margin-top:0;
 }
 
-h1{
+h1, .title {
   font-family:"EBG12-Re",'FZKeBenFangSong',Arial,sans-serif;
   font-size:200%;
   font-weight:700;
   margin-top:0;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .subtitle{
