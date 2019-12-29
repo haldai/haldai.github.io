@@ -105,9 +105,10 @@ h2,h3,h4,h5,h6,legend{
 
 h1{
   font-family:"EBG12-Re",'FZKeBenFangSong',Arial,sans-serif;
-  font-size:175%;
+  font-size:200%;
   font-weight:700;
   margin-top:0;
+  margin-bottom: 2em;
 }
 
 .subtitle{
