@@ -19,37 +19,39 @@
 */
 @font-face {
   font-family: 'EBG12-Re';
-  src:  url( ../../fonts/EBGaramond12-Regular.eot );
+  src:  url('../../fonts/EBGaramond12-Regular.eot');
   src:  url('../../fonts/EBGaramond12-Regular.woff') format('woff');
-  }
+}
+@font-face {
+  font-family: "EBG12-Re";
+  src:  url('../../fonts/EBGaramond12-Italic.eot');
+  src:  url('../../fonts/EBGaramond12-Italic.woff') format('woff');
+  font-style: italic;
+}
 @font-face {
   font-family: "EBG08-Re";
-  src:  url( ../../fonts/EBGaramond08-Regular.eot );
+  src:  url('../../fonts/EBGaramond08-Regular.eot');
   src:  url('../../fonts/EBGaramond08-Regular.woff') format('woff');
-  }
+}
+@font-face {
+  font-family: "EBG08-Re";
+  src:  url('../../fonts/EBGaramond08-Italic.eot');
+  src:  url('../../fonts/EBGaramond08-Italic.woff') format('woff');
+  font-style: italic;
+}
 @font-face {
   font-family: "EBG08-SC";
-  src:  url( ../../fonts/EBGaramond08-SC.eot );
-  src:  url('../../fonts/EBGaramond08-SC.woff') format('woff');
-  }
+  src:  url('../../fonts/EBGaramondSC08-Regular.eot');
+  src:  url('../../fonts/EBGaramondSC08-Regular.woff') format('woff');
+}
 @font-face {
   font-family: "EBG12-SC";
-  src:  url( ../../fonts/EBGaramond12-SC.eot );
-  src:  url('../../fonts/EBGaramond12-SC.woff') format('woff');
-  }
-@font-face {
-  font-family: "EBG12-It";
-  src:  url( ../../fonts/EBGaramond12-Italic.eot );
-  src:  url('../../fonts/EBGaramond12-Italic.woff') format('woff');
-  }
-@font-face {
-  font-family: "EBG08-It";
-  src:  url( ../../fonts/EBGaramond08-Italic.eot );
-  src:  url('../../fonts/EBGaramond08-Italic.woff') format('woff');
-  }
+  src:  url('../../fonts/EBGaramondSC12-Regular.eot');
+  src:  url('../../fonts/EBGaramondSC12-Regular.woff') format('woff');
+}
 @font-face {
     font-family: "EBGInit";
-  src:	url( ../../fonts/EBGaramond-Initials.eot );
+  src:	url('../../fonts/EBGaramond-Initials.eot');
   src:	url('../../fonts/EBGaramond-Initials.woff') format('woff');
 }
 
