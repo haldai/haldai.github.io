@@ -7,6 +7,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'FZKeBenFangSong';
+  src: url('../../fonts/FZKeBenFangSongS-R-GB.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* EB Garamond
    copyright: http://www.georgduffner.at
 */
@@ -60,14 +67,17 @@
        url('../../fonts/source-code-pro-v8-latin-ext_latin-regular.svg#SourceCodePro') format('svg'); /* Legacy iOS */
 }
 
-h1,h2,h3,h4,h5,h6,legend{
-  font-family:"EBG12-Re",Arial,sans-serif;
+h2,h3,h4,h5,h6,legend{
+  font-family:"EBG12-SC",'FZKeBenFangSong',Arial,sans-serif;
   font-weight:700;
   margin-top:0;
 }
 
 h1{
+  font-family:"EBG12-Re",'FZKeBenFangSong',Arial,sans-serif;
   font-size:175%;
+  font-weight:700;
+  margin-top:0;
 }
 
 .subtitle{
@@ -110,7 +120,7 @@ html{
 body{
   background:#edf0f2;
   color:#404040;
-  font-family:"EBG12-Re",Arial,sans-serif;
+  font-family:"EBG12-Re",'FZKeBenFangSong',Arial,sans-serif;
   font-size: 1em !important;
   font-weight:normal;
   margin:0;
@@ -955,20 +965,20 @@ footer p{
   color:#fcfcfc;
   background:#1f1d1d;
   border-top:solid 10px #343131;
-  font-family: "EBG12-Re";
+  font-family: "EBG12-Re",'FZKeBenFangSong',;
   font-size: 90%;
   z-index:400;
   padding:12px;
 }
 
 #postamble .author {
-  font-family: "EBG12-Re";
+  font-family: "EBG12-Re",'FZKeBenFangSong',;
   font-size: 100%;
   margin-bottom: 0px;
 }
 
 #postamble .date {
-  font-family: "EBG12-Re";
+  font-family: "EBG12-Re",'FZKeBenFangSong',;
   font-size: 90%;
   margin-bottom: 0px;
   color: #27AE60;
@@ -979,12 +989,12 @@ footer p{
 }
 
 #copyright a{
-  font-family: "EBG12-Re";
+  font-family: "EBG12-Re",'FZKeBenFangSong',;
   color:#2980B9;
   text-decoration:none}
 
 #copyright .rst-current-version{
-  font-family: "EBG12-Re";
+  font-family: "EBG12-Re",'FZKeBenFangSong',;
   padding:12px;
   background-color:#272525;
   display:block;
