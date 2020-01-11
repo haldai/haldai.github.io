@@ -11,7 +11,7 @@
 # MACROS
 #+MACRO: cmt @@comment:$1@@
 #+MACRO: nl @@html:<br \>@@
-#+MACRO: qed $\Box$
+#+MACRO: qed $\blacksquare$
 #+MACRO: beq \begin{equation}
 #+MACRO: eeq \end{equation}
 #+MACRO: begin_div @@html:<div class="$1" style="$2" id="$3">@@
