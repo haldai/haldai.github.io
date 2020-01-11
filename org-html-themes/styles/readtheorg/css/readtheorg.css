@@ -167,6 +167,7 @@ body{
   max-width:800px;
   min-height:100%;
   padding:1.618em 3.236em;
+  text-align: justify;
 }
 
 p{
