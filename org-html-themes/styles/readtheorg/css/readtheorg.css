@@ -897,6 +897,7 @@ hr{
   height:100%;
   background:#343131;
   z-index:200;
+  text-align: left;
   scrollbar-base-color: #1F1D1D;
   scrollbar-arrow-color: #b3b3b3;
   scrollbar-shadow-color: #1F1D1D;
