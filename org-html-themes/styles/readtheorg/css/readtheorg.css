@@ -108,7 +108,8 @@ h1, .title {
   font-size:200%;
   font-weight:700;
   margin-top:0;
-  margin-bottom: 1em;
+  margin-bottom: 1em !important;
+  line-height: 150%;
 }
 
 .subtitle{
