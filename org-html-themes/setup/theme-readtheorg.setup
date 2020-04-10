@@ -1,4 +1,5 @@
 # -*- mode: org; -*-
+# -*- org-export-babel-evaluate: nil -*-
 
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://haldai.github.io/org-html-themes/styles/readtheorg/css/htmlize.css"/>
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://haldai.github.io/org-html-themes/styles/readtheorg/css/readtheorg.css"/>
