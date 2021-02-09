@@ -1,12 +1,12 @@
 # -*- mode: org; -*-
 
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="~/Myprojects/haldai.github.io/org-html-themes/styles/readtheorg/css/htmlize.css"/>
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="~/Myprojects/haldai.github.io/org-html-themes/styles/readtheorg/css/readtheorg.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/home/daiwz/MyProjects/haldai.github.io/org-html-themes/styles/readtheorg/css/htmlize.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/home/daiwz/MyProjects/haldai.github.io/org-html-themes/styles/readtheorg/css/readtheorg.css"/>
 
-#+HTML_HEAD: <script src="~/Myprojects//haldai.github.io/org-html-themes/styles/lib/js/jquery.min.js"></script>
-#+HTML_HEAD: <script src="~/Myprojects//haldai.github.io/org-html-themes/styles/lib/js/bootstrap.min.js"></script>
-#+HTML_HEAD: <script type="text/javascript" src="~/Myprojects//haldai.github.io/org-html-themes/styles/lib/js/jquery.stickytableheaders.min.js"></script>
-#+HTML_HEAD: <script type="text/javascript" src="~/Myprojects//haldai.github.io/org-html-themes/styles/readtheorg/js/readtheorg.js"></script>
+#+HTML_HEAD: <script src="/home/daiwz/MyProjects/haldai.github.io/org-html-themes/styles/lib/js/jquery.min.js"></script>
+#+HTML_HEAD: <script src="/home/daiwz/MyProjects/haldai.github.io/org-html-themes/styles/lib/js/bootstrap.min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="/home/daiwz/MyProjects/haldai.github.io/org-html-themes/styles/lib/js/jquery.stickytableheaders.min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="/home/daiwz/MyProjects/haldai.github.io/org-html-themes/styles/readtheorg/js/readtheorg.js"></script>
 
 # MACROS
 #+MACRO: cmt @@comment:$1@@
