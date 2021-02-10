@@ -8,6 +8,8 @@
 #+HTML_HEAD: <script type="text/javascript" src="/home/daiwz/MyProjects/haldai.github.io/org-html-themes/styles/lib/js/jquery.stickytableheaders.min.js"></script>
 #+HTML_HEAD: <script type="text/javascript" src="/home/daiwz/MyProjects/haldai.github.io/org-html-themes/styles/readtheorg/js/readtheorg.js"></script>
 
+#+HTML_MATHJAX: path:"/home/daiwz/MyProjects/haldai.github.io/org-html-themes/styles/lib/js/MathJax-2.7.9/MathJax.js?config=TeX-AMS_HTML"
+
 # MACROS
 #+MACRO: cmt @@comment:$1@@
 #+MACRO: nl @@html:<br \>@@
